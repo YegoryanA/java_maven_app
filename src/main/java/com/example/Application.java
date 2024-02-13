@@ -18,7 +18,7 @@ public class Application {
     public void init()
     {
         Logger log = LoggerFactory.getLogger(Application.class);
-        log.info("Java app started in my Server");
+        log.info("Java app started after pushing from jenkins");
     }
 
     public String getStatus() {
